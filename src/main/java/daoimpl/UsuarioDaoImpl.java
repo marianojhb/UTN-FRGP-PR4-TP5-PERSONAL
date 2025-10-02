@@ -1,7 +1,9 @@
 package daoimpl;
 import java.sql.*;
 
-public class UsuarioDaoImpl {
+import dao.UsuarioDao;
+
+public class UsuarioDaoImpl implements UsuarioDao {
 	public boolean login (String username, String password) {
 		
 		Conexion cn = new Conexion();
