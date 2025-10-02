@@ -1,1 +1,56 @@
 @charset "UTF-8";
+
+.content {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+}
+
+/* Nav */
+
+aside {
+	background-color: dodgerblue;
+	color: white;	
+	font-weight: bolder;
+	padding: 5px;
+	min-width: 200px;
+}
+
+h2 {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;	
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+nav li {
+	padding: 8px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+nav li:hover {
+	background-color: #0275d8
+}
+
+
+/* NuevoCliente.jsp */
+
+
+.formnuevocliente {
+	border: 1px solid lightgrey;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.formnuevocliente label {
+	font-weight: bolder;
+}

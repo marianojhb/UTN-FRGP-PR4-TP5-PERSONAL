@@ -18,7 +18,6 @@ public class UsuarioDaoImpl implements UsuarioDao {
 			
 			if(rs.next())
 			{
-				System.out.println(rs.getString("usuario"));
 				return true;
 			}
 			

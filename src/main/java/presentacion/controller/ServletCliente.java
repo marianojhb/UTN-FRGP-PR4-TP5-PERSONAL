@@ -38,7 +38,7 @@ public class ServletCliente extends HttpServlet {
 			if (ingreso == true)
 			{
 				request.getSession().setAttribute("usuario", username);
-				RequestDispatcher dispatcher = request.getRequestDispatcher("/AgregarCliente.jsp");
+				RequestDispatcher dispatcher = request.getRequestDispatcher("/NuevoCliente.jsp");
 				dispatcher.forward(request, response);
 			} else
 			{
