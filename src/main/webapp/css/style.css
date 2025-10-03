@@ -49,8 +49,40 @@ nav li:hover {
 	border: 1px solid lightgrey;
 	padding: 15px;
 	border-radius: 5px;
+	margin-top: 5px;
 }
 
 .formnuevocliente label {
 	font-weight: bolder;
 }
+
+/* ListadoClientes.jsp */
+
+#tblListadoClientes {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+}
+
+#tblListadoClientes td, 
+#tblListadoClientes th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+} 
+
+#tblListadoClientes th {
+	text-align: center;
+	}
+	
+
+#filtrosTabla {
+	display: flex;
+	flex-direction: row;
+}
+
+#txtBuscar {
+	margin-left: auto;
+}
+

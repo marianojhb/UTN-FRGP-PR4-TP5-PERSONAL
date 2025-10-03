@@ -1,7 +1,7 @@
 package entidad;
 
 public class Cliente {
-	private int id_Cliente;
+	private int id_cliente;
 	private String dni;
 	private String cuil;
 	private String nombre;
@@ -15,12 +15,12 @@ public class Cliente {
 	private String correo_electronico;
 	private String telefono;
 
-	public int getId_Cliente() {
-		return id_Cliente;
+	public int getId_cliente() {
+		return id_cliente;
 	}
 
-	public void setId_Cliente(int id_Cliente) {
-		this.id_Cliente = id_Cliente;
+	public void setId_cliente(int id_cliente) {
+		this.id_cliente = id_cliente;
 	}
 
 	public String getDni() {
@@ -121,7 +121,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return "Cliente [id_Cliente=" + id_Cliente + ", dni=" + dni + ", cuil=" + cuil + ", nombre=" + nombre
+		return "Cliente [id_cliente=" + id_cliente + ", dni=" + dni + ", cuil=" + cuil + ", nombre=" + nombre
 				+ ", apellido=" + apellido + ", sexo=" + sexo + ", fecha_nacimiento=" + fecha_nacimiento
 				+ ", direccion=" + direccion + ", nacionalidad=" + nacionalidad + ", localidad=" + localidad
 				+ ", provincia=" + provincia + ", correo_electronico=" + correo_electronico + ", telefono=" + telefono

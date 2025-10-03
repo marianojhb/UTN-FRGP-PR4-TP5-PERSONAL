@@ -7,6 +7,7 @@ import negocio.UsuarioNeg;
 public class UsuarioNegImpl implements UsuarioNeg {
 	UsuarioDaoImpl ud = new UsuarioDaoImpl();
 	
+	@Override
 	public boolean login(String username, String password) {
 		return ud.login(username, password);
 	}
